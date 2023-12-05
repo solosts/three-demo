@@ -8,11 +8,6 @@ const router = createRouter({
       name: 'gettingStarted',
       component: () => import('../views/gettingStarted/one.vue')
     },
-    {
-      path: '/about',
-      name: 'about',
-      component: () => import('../views/AboutView.vue')
-    }
   ]
 })
 
